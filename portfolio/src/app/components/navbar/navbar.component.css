@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: rgb(42, 165, 142);
+    color: black;
+    font-family: monospace;
+    font-size: 18px;
+    font-style: italic;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+.nav-links li{
+    margin-right: 20px;
+}
+.nav-links{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+
+}
+.nav-links a:hover{
+    color: gold;
+    cursor: pointer;
+
+}

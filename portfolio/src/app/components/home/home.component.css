@@ -1,0 +1,37 @@
+/* app.component.css */
+.background-image {
+  background-image: url("../../../assets/marcos-ferreira-1nr2jbuRlcg-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+.content-overlay {
+  position: relative;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-family: monospace;
+  font-style: italic;
+  color: white;
+  padding: 2rem;
+  background-color: transparent;
+  border-radius: 8px;
+}
+
+.content-overlay2{
+  position: relative;
+  top:10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: whitesmoke;
+  padding: 2rem;
+  background-color: transparent;
+  border-radius: 8px;
+
+
+}
